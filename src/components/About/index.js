@@ -9,7 +9,8 @@ export default function About() {
       <div className ="writing">
         <p className="name">Anjali Muthusamy</p>
         <p className="jobTitle">JuniorDeveloper</p>
-        <p className="about">Hi! I'm a Chemical Engineering graduate from UCL that flirted with the idea of programming and now im 6 weeks deep into a coding bootcamp, contemplating life over React </p>
+        <p className="about">Insert here
+        Insert here Insert hereInsert hereInsert hereInsert hereInsert hereInsert hereInsert hereInsert hereInsert hereInsert hereInsert hereInsert hereInsert hereInsert hereInsert hereInsert hereInsert hereInsert here </p>
       </div>
       <div className="myPhoto">
         <img src={myImage} alt="My Photo" />
@@ -17,3 +18,4 @@ export default function About() {
     </div>
   );
 }
+// Hi! I'm a Chemical Engineering graduate from UCL that flirted with the idea of programming and now im 6 weeks deep into a coding bootcamp, contemplating life over React

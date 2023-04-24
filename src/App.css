@@ -26,8 +26,8 @@ body {
 }
 
 img {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
 }
 
@@ -35,5 +35,7 @@ img {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 600px;
+  align-items: center;
+  width: 700px;
+  gap: 20px;
 }
