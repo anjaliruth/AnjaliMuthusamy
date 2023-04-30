@@ -1,19 +1,32 @@
+import React from "react";
+
 function NavBar() {
-
-
-    return (
-        <header>
-            <h1>Anjali Ruth Muthusamy</h1>
-            <nav>
-            <a href = "../About/index.js">About</a>
-            <a href = "../Projects/Projects.js">Projects</a>
-            <a href = "../Contact/Contact.js">Contact</a>
-            <a href = "../Skills/Skills.js">Skills</a>
-
-            </nav>
-
-        </header>
-    );
+  return (
+    <nav>
+    <ul>
+      <li>
+        <a href="#about">About</a>
+      </li>
+      <li>
+        <a href="#projects">Projects</a>
+      </li>
+      <li>
+        <a href="#skills">Skills</a>
+      </li>
+      <li>
+        <a href="#contact">Contact</a>
+      </li>
+    </ul>
+    </nav>
+  );
+ 
 }
+// function NavBar() {
+//   return (
+//     <nav>
+//       <NavLinks />
+//     </nav>
+//   );
+// }
 
-export default NavBar
+export default NavBar;

@@ -3,6 +3,7 @@
 }
 
 body {
+  scroll-behavior: smooth;
   background-color: #02182b;
   min-height: 100vh;
   display: flex;

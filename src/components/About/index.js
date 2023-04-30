@@ -8,7 +8,7 @@ export default function About() {
     <div className="totalAboutSection">
       <div className ="writing">
         <p className="name">Anjali Muthusamy</p>
-        <p className="jobTitle">JuniorDeveloper</p>
+        <p className="jobTitle">Junior Developer</p>
         <p className="about">Insert here
         Insert here Insert hereInsert hereInsert hereInsert hereInsert hereInsert hereInsert hereInsert hereInsert hereInsert hereInsert hereInsert hereInsert hereInsert hereInsert hereInsert hereInsert hereInsert here </p>
       </div>

@@ -4,16 +4,19 @@ import NavBar from "./components/Nav Bar/NavBar"
 import About from "./components/About"
 import Projects from "./components/Projects/Projects"
 import Skills from "./components/Skills/Skills"
-import Contact from "./components/Contact/Contact"
+import Contact from "./components/Contact/ContactInfo"
 
 function App() {
   return (
     <div className="App">
       <NavBar />
+     <About id="about"/>
+     <About />
+     <About />
      <About />
      <Projects />
-     <Skills />
-     <Contact />
+     <Skills  />
+     <Contact id="contact"/>
     </div>
   );
 }
