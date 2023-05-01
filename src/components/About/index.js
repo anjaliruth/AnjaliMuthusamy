@@ -7,8 +7,8 @@ export default function About() {
   return (
     <div className="totalAboutSection">
       <div className ="writing">
-        <p className="name">Anjali Muthusamy</p>
-        <p className="jobTitle">Junior Developer</p>
+        <p className = "sectionHeading">Anjali Muthusamy</p>
+        <p className = "sectionHeading">Junior Developer</p>
         <p className="about">Insert here
         Insert here Insert hereInsert hereInsert hereInsert hereInsert hereInsert hereInsert hereInsert hereInsert hereInsert hereInsert hereInsert hereInsert hereInsert hereInsert hereInsert hereInsert hereInsert here </p>
       </div>

@@ -2,34 +2,63 @@
   text-align: center;
 }
 
+:root {
+  --backgroundColour: #02182b;
+  --textColour: #f76f8e;
+  --headingColour: #8aea92;
+}
+
+.sectionHeading {
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--headingColour);
+}
+
+.sectionList {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: var(--headingColour);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+
 body {
   scroll-behavior: smooth;
-  background-color: #02182b;
+  background-color:var(--backgroundColour);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: #f76f8e
+  color: var(--textColour);
 }
 
 .name{
   font-size: 2rem;
   font-weight: 800;
-  color: #f76f8e;
+  color: var(--textColour)
 }
 
 .jobTitle {
   font-size: 1.5rem;
   font-weight: 600;
-  color: #f76f8e;
+  color: var(--textColour);
 }
 
 img {
   width: 250px;
   height: 250px;
   border-radius: 50%;
+  object-fit: cover;
 }
 
 .totalAboutSection {
