@@ -11,9 +11,6 @@ function App() {
     <div className="App">
       <NavBar />
      <About id="about"/>
-     <About />
-     <About />
-     <About />
      <Projects />
      <Skills  />
      <Contact id="contact"/>
