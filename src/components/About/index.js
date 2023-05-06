@@ -13,7 +13,7 @@ export default function About() {
         Insert here Insert hereInsert hereInsert hereInsert hereInsert hereInsert hereInsert hereInsert hereInsert hereInsert hereInsert hereInsert hereInsert hereInsert hereInsert hereInsert hereInsert hereInsert here </p>
       </div>
       <div className="myPhoto">
-        <img src={myImage} alt="My Photo" />
+        <img className="myImage" src={myImage} alt="My Photo" />
       </div>
     </div>
   );
