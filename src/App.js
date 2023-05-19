@@ -7,11 +7,13 @@ import About from "./components/About"
 import Projects from "./components/Projects/Projects"
 import Skills from "./components/Skills/Skills"
 import Contact from "./components/Contact/ContactInfo"
+import HomePage from './components/Home/HomePage.js';
 
 function App() {
   return (
     <div className="App">
       <NavBar />
+      <HomePage/>
      <About id="about"/>
      <Projects />
      <Skills  />

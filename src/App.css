@@ -1,11 +1,16 @@
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
 }
 
 :root {
-  --backgroundColour: #02182b;
-  --textColour: #f76f8e;
-  --headingColour: #8aea92;
+  --backgroundColour: #011627;
+  /* --textColour: #F6F1D1;
+  --headingColour:  #AF5B5B; */
+  /* --backgroundColour: #02182b;*/
+  --textColour: #FFB5C2;
+  --headingColour: #8aea92; 
 }
 
 .carousel{
@@ -15,7 +20,16 @@
   flex-direction: column;
   justify-content: center;
 }
+.icons{
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
 
+.Linkedin-icon, .Github-icon{
+  width: 30px;
+  height: 30px;
+}
 .inner {
   white-space: nowrap;
   transition: transform 0.3s;
@@ -24,6 +38,7 @@ box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 
 .carousel-item-image{
   width: 250px;
+height:200px;
   padding: 0 20px 0 20px;
   
 }
@@ -33,7 +48,7 @@ box-shadow: 0 5px 15px rgba(0,0,0,0.1);
   align-items: center;
   justify-content: center;
   height: 490px;
-  background-color: #fff
+  background-color: #3777FF;
 }
 
 .carousel-item-text{
@@ -84,8 +99,24 @@ box-shadow: 0 5px 15px rgba(0,0,0,0.1);
   color: var(--textColour);
 }
 
+.NavBar{
+  position: sticky;
+  top:0;
+  z-index: 1;
+  display: flex;
+  justify-content: flex-end;
+
+margin-right: 30px;
+}
 .sectionHeading {
+  display: flex;
+  justify-content: center;
   font-size: 2rem;
+  font-weight: 800;
+  color: var(--headingColour);
+}
+.sectionsubHeading {
+  font-size: 1.5rem;
   font-weight: 800;
   color: var(--headingColour);
 }
@@ -105,14 +136,18 @@ ul li a {
   font-weight: 600;
 }
 
-
+#projects, #skills, #contact {
+  margin: 0 auto
+}
 body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
   scroll-behavior: smooth;
   background-color:var(--backgroundColour);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: var(--textColour);
@@ -121,7 +156,7 @@ body {
 .name{
   font-size: 2rem;
   font-weight: 800;
-  color: var(--textColour)
+  color: var(--headingColour)
 }
 
 .jobTitle {
@@ -137,11 +172,17 @@ body {
   object-fit: cover;
 }
 
-.totalAboutSection {
+.totalHomeSection {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 700px;
+  max-width: 700px;
+  margin: 0 auto;
   gap: 20px;
+}
+
+.aboutPara{
+  max-width: 500px;
+  margin: 0 auto;
 }
