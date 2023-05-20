@@ -15,6 +15,23 @@
   --headingColour: #8aea92; 
 }
 
+.skillsGrid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+ column-gap:100px;
+}
+
+.individualSkills{
+  display: flex; 
+  direction: row;
+}
+
+.individualSkills > img {
+  height: 40px;
+  align-self: center;
+}
+
+
 .carousel{
   overflow: hidden;
   width: 700px;

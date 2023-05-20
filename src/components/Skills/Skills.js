@@ -23,13 +23,15 @@ function Skills() {
   return (
     <div id="skills">
       <h1 className="sectionHeading">Skills</h1>
+      <div className="skillsGrid">
       {lists.map((list,i) => (
-        <div key={i}>
+        <div key={i} className="individualSkills">
         
           <img src={list.image} alt={list.skill}/>
           <h2>{list.skill}</h2>
         </div>
       ))}
+    </div>
     </div>
   );
 }
