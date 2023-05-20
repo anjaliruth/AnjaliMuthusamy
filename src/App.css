@@ -10,6 +10,8 @@
   --headingColour:  #AF5B5B; */
   /* --backgroundColour: #02182b;*/
   --textColour: #FFB5C2;
+  --textColour: #38AECC;
+  --textColour: #ffffff;
   --headingColour: #8aea92; 
 }
 
@@ -48,7 +50,8 @@ height:200px;
   align-items: center;
   justify-content: center;
   height: 490px;
-  background-color: #3777FF;
+  /* background-color: #3777FF; */
+  background-color:#FFB5C2 ;
 }
 
 .carousel-item-text{

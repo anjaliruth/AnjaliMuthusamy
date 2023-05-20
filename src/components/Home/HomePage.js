@@ -1,7 +1,7 @@
 import React from 'react'
 import myImage from "../../photos/IMG_8232.jpg";
-import GithubIcon from "../../Media/github.png"
-import LinkedinIcon from "../../Media/Linkedin.png"
+import GithubIcon from "../../Media/icons/github.png"
+import LinkedinIcon from "../../Media/icons/Linkedin.png"
 export default function HomePage() {
   return (
     <div id="home">
