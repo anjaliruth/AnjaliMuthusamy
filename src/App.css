@@ -65,9 +65,12 @@ html{
 }
 
 .carousel-item-image {
-  width: 250px;
-  height: 200px;
-  padding: 0 20px 0 20px;
+  width: 320px;
+  height: 260px;
+  margin: 0 20px 0 20px;
+  border-radius: 5px;
+  object-fit:fill;
+
 }
 
 .carousel-item {
@@ -75,9 +78,12 @@ html{
   align-items: center;
   justify-content: center;
   height: 490px;
+  max-width: 900px;
   /* background-color: #3777FF; */
   background-color: #ffb5c2;
 }
+
+
 
 .carousel-item-text {
   fint-size: 1.15rem;
@@ -172,7 +178,8 @@ ul li a {
 body {
   /* font-family: 'Source Code Pro', monospace; */
   /* font-family: 'Roboto Slab', serif; */
-  font-family: 'Pangolin', cursive;
+  /* font-family: 'Indie Flower', cursive; */
+  /* font-family: 'Pangolin', cursive; */
   margin: 0;
   padding: 0;
   width: 100%;
@@ -219,7 +226,9 @@ body {
   margin: 0 auto;
 }
 .carousel-content{
-  margin: 0;
+  text-align: center;
+  width: 300px;
+  margin: 20px;
 }
 
 .carousel-buttons2 > button {

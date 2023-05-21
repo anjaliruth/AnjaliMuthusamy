@@ -1,6 +1,6 @@
 import { Carouselitem } from "../CarouselItem/carouselitem";
 import image1 from "../../Media/Trivia.png";
-import image2 from "../../Media/Trivia.png";
+import image2 from "../../Media/TipSplitter.png";
 import image3 from "../../Media/Trivia.png";
 import React, { useState } from "react";
 
@@ -24,11 +24,12 @@ export default function Carousel() {
       pageUrl: "https://anjaliruth.github.io/TRIVIA/"
     },
     {
-      title: "Trivia Game",
-      description: "Test your knowledge in a thrilling Trivia Game. Users get to choose from over 20 categories, varying difficulty levels and game length. Earn points for correct answers and reset the game at anytime.",
+      title: "Tip Splitter",
+      description: "Need to figure out exactly how much to tip?  \nTry out this tip splitter.  \nDining as a group and want to split the bill? We got that covered too."
+,
       image: image2,
-      githubUrl:"https://github.com/anjaliruth/TRIVIA/blob/main/README.md", 
-      pageUrl: "https://anjaliruth.github.io/TRIVIA/"
+      githubUrl:"https://github.com/anjaliruth/TipSplitter/blob/main/README.md", 
+      pageUrl: "https://anjaliruth.github.io/TipSplitter/"
     },
     {
       title: "Trivia Game",
