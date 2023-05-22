@@ -20,6 +20,23 @@ html{
   --headingColour: #8aea92;
 }
 
+
+
+
+
+.about-total{
+  font-size: medium;
+  display: flex ;
+  max-width: 750px;
+  margin: 0 auto;
+  gap: 10px;
+  align-items: center;
+}
+
+.aboutPara{
+  width: 600px;
+  background-color: #38aecc;
+}
 .skillsGrid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -40,6 +57,10 @@ html{
   align-self: center;
 }
 
+
+.writing{
+  text-align: center;
+}
 .carousel {
   overflow: hidden;
   width: 700px;
@@ -136,7 +157,8 @@ html{
   z-index: 1;
   display: flex;
   justify-content: flex-end;
-  margin-right: 30px;
+  /* margin-right: 30px; */
+  background-color: #011627;
 }
 .sectionHeading {
   display: flex;
@@ -205,8 +227,8 @@ body {
 }
 
 .myImage {
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   object-fit: cover;
 }
@@ -224,6 +246,10 @@ body {
 .aboutPara {
   max-width: 500px;
   margin: 0 auto;
+}
+
+.myPhoto{
+  background-color: #38aecc;
 }
 .carousel-content{
   text-align: center;

@@ -2,7 +2,6 @@ import React from "react";
 
 function NavBar() {
   return (
-    <div className="totalNavBar">
     <div className="NavBar">
     <nav>
       <ul className="sectionList">
@@ -23,7 +22,6 @@ function NavBar() {
         </li>
       </ul>
       </nav>
-    </div>
     </div>
   );
 }

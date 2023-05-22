@@ -1,6 +1,6 @@
 import { Carouselitem } from "../CarouselItem/carouselitem";
 import image1 from "../../Media/Trivia.png";
-import image2 from "../../Media/TipSplitter.png";
+import image2 from "../../Media/TipSplitter2.png";
 import image3 from "../../Media/Trivia.png";
 import React, { useState } from "react";
 
