@@ -98,10 +98,11 @@ html{
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  height: 490px;
+  height: 400px;
   max-width: 900px;
   /* background-color: #3777FF; */
   background-color: #ffb5c2;
+  border-radius: 5px;
 }
 
 
@@ -204,6 +205,7 @@ ul li a {
 .relativeContainer{
   position: relative;
   margin: 10px auto;
+  height: 100vh;
 
 }
 
@@ -252,9 +254,7 @@ body {
   object-fit: cover;
 }
 
-#home{
-  /* height: 100vh; */
-}
+
 .totalHomeSection {
   display: flex;
   flex-direction: row;
