@@ -157,7 +157,7 @@ html{
   z-index: 1;
   display: flex;
   justify-content: flex-end;
-  /* margin-right: 30px; */
+  margin-right: 20px;
   background-color: #011627;
 }
 .sectionHeading {
@@ -181,6 +181,12 @@ html{
   gap: 20px;
 }
 
+nav {
+  margin: 0;
+  padding: 0;
+
+}
+
 ul li a {
   text-decoration: none;
   color: var(--headingColour);
@@ -188,12 +194,25 @@ ul li a {
   font-weight: 600;
 }
 
-#projects,
+/* #projects,
 #skills,
 #contact{
+ 
+} */
+
+
+.relativeContainer{
+  position: relative;
   margin: 10px auto;
+
 }
 
+.headerOffset{
+  position: relative;
+  top: -70px;
+  margin: 10px auto;
+
+}
 #about{
   padding-top: 15px;
 }
@@ -233,6 +252,9 @@ body {
   object-fit: cover;
 }
 
+#home{
+  /* height: 100vh; */
+}
 .totalHomeSection {
   display: flex;
   flex-direction: row;

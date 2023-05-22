@@ -21,7 +21,9 @@ function Skills() {
   // let skills = [{skill: "HTML"}, {skill: "CSS"}]
 
   return (
-    <div id="skills">
+  
+    <div className="relativeContainer">
+    <div id="skills" className="headerOffset"></div>
       <h1 className="sectionHeading">Skills</h1>
       <div className="skillsGrid">
       {lists.map((list,i) => (

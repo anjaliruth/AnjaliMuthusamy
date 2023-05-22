@@ -4,7 +4,9 @@ import GithubIcon from "../../Media/icons/github.png";
 import LinkedinIcon from "../../Media/icons/Linkedin.png";
 export default function HomePage() {
   return (
-    <div id="home">
+  
+    <div className="relativeContainer">
+    <div id="home" className="headerOffset"></div>
       <div className="totalHomeSection">
         <div className="icons">
           <a

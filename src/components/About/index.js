@@ -5,7 +5,8 @@ import myImage from "../../photos/IMG_8232.jpg";
 //about section
 export default function About() {
   return (
-    <div id="about">
+    <div className="relativeContainer">
+    <div id="about" className="headerOffset"></div>
       <div className="sectionHeading">About</div>
       <div className="about-total">
         <div className="aboutPara">

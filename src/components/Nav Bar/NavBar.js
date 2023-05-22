@@ -17,20 +17,11 @@ function NavBar() {
         <li>
           <a href="#skills">Skills</a>
         </li>
-        <li>
-          <a href="#contact">Contact</a>
-        </li>
       </ul>
       </nav>
     </div>
   );
 }
-// function NavBar() {
-//   return (
-//     <nav>
-//       <NavLinks />
-//     </nav>
-//   );
-// }
+
 
 export default NavBar;

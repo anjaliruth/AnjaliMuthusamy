@@ -1,10 +1,11 @@
-import Carousel from "../Carousel/carousel"
+import Carousel from "../Carousel/carousel";
 
 function Projects() {
   return (
-    <div id="projects">
-      <h1 className = "sectionHeading"> My Projects</h1>
-    <Carousel />
+    <div className="relativeContainer">
+      <div id="projects" className="headerOffset"></div>
+      <h1 className="sectionHeading"> My Projects</h1>
+      <Carousel />
     </div>
   );
 }
