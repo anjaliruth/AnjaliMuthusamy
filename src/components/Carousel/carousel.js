@@ -35,8 +35,8 @@ export default function Carousel() {
       title: "Currency Converter",
       description: "Input your base currency and amount, and instantly obtain the converted value in your desired target currency. It's quick, accurate, and convenient for all your currency conversion needs.",
       image: image3,
-      githubUrl:"https://github.com/anjaliruth/TRIVIA/blob/main/README.md", 
-      pageUrl: "https://anjaliruth.github.io/TRIVIA/"
+      githubUrl:"https://github.com/anjaliruth/CorrencyConverter/blob/master/README.md", 
+      pageUrl: "https://anjaliruth.github.io/CorrencyConverter/"
     },
   ];
   return (
