@@ -1,7 +1,7 @@
 import { Carouselitem } from "../CarouselItem/carouselitem";
 import image1 from "../../Media/Trivia.png";
 import image2 from "../../Media/TipSplitter2.png";
-import image3 from "../../Media/Trivia.png";
+import image3 from "../../Media/CurrencyConverter.png";
 import React, { useState } from "react";
 
 export default function Carousel() {
@@ -32,8 +32,8 @@ export default function Carousel() {
       pageUrl: "https://anjaliruth.github.io/TipSplitter/"
     },
     {
-      title: "Trivia Game",
-      description: "Test your knowledge in a thrilling Trivia Game. Users get to choose from over 20 categories, varying difficulty levels and game length. Earn points for correct answers and reset the game at anytime.",
+      title: "Currency Converter",
+      description: "Input your base currency and amount, and instantly obtain the converted value in your desired target currency. It's quick, accurate, and convenient for all your currency conversion needs.",
       image: image3,
       githubUrl:"https://github.com/anjaliruth/TRIVIA/blob/main/README.md", 
       pageUrl: "https://anjaliruth.github.io/TRIVIA/"

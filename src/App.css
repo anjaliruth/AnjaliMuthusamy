@@ -88,18 +88,25 @@ html{
 .carousel-item-image {
   width: 320px;
   height: 260px;
-  margin: 0 20px 0 20px;
+  margin: 100px 10px 0 20px;
   border-radius: 5px;
   object-fit:fill;
+  
 
 }
 
+.carousel-item-title{
+  /* background-color: #011627; */
+  padding: 0;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
 .carousel-item {
   display: inline-flex;
-  align-items: center;
+  align-items: start;
   justify-content: center;
-  height: 400px;
-  max-width: 900px;
+  height: 450px;
+  max-width: 700px;
   /* background-color: #3777FF; */
   background-color: #ffb5c2;
   border-radius: 5px;
@@ -109,9 +116,12 @@ html{
 
 .carousel-item-text {
   fint-size: 1.15rem;
-  margin: 40px 0 40px 0;
+  margin: 10px 0 40px 0;
   padding: 0 20px 0 20p;
   white-space: normal;
+  height: 200px;
+  text-align:start;
+  /* background-color: #8aea92; */
 }
 
 .carousel-buttons {
@@ -275,8 +285,9 @@ body {
 }
 .carousel-content{
   text-align: center;
-  width: 300px;
-  margin: 20px;
+  width: 350px;
+  margin: 10px;
+  /* background-color: #011627; */
 }
 
 .carousel-buttons2 > button {
@@ -296,8 +307,9 @@ body {
   width: 250px;
 }
 
-/* .carousel-content{
+/* .carousel{
   background-color: chartreuse;
   margin: 0;
   padding: 0;
-} */
+  width: 700px;
+}  */
