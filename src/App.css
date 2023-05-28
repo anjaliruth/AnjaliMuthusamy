@@ -3,8 +3,6 @@
   flex-direction: column;
   gap: 100px;
   width: 100vw;
-  justify-content: center;
-  align-items: center;
 /* width=100% */
 /* media query for desktop to lower width and centralised margin auto
 beware of navbar so its not pulled into centralised settings.
@@ -54,8 +52,9 @@ html{
 }
 .skillsGrid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   column-gap: 10px;
+  row-gap: 10px;
   margin: 0 auto;
 width: 100%;
 max-width: 1000px;
@@ -66,8 +65,6 @@ max-width: 1000px;
   display: flex;
   direction: row;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.7);
-  padding: 10px;
-  margin: 10px;
   border-radius: 5px;
 }
 
@@ -87,9 +84,9 @@ max-width: 1000px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  @media screen and (min-width: 700px) {
+  /* @media screen and (min-width: 700px) {
     width: 75%;
-  }
+  } */
 }
 
 
@@ -99,6 +96,7 @@ max-width: 1000px;
   display: flex;
   flex-direction: column;
   gap: 10px;
+  overflow: hidden;
 }
 
 .Linkedin-icon,
@@ -114,8 +112,7 @@ max-width: 1000px;
 
 .carousel-item-image {
   max-width: 320px;
-  height: 260px;
-  margin: 100px 10px 0 20px;
+  margin: 20px auto;
   border-radius: 5px;
   object-fit:fill;
   
@@ -129,14 +126,21 @@ max-width: 1000px;
   margin-bottom: 10px;
 }
 .carousel-item {
-  display: inline-flex;
+  display:flex;
+  overflow: hidden;
   align-items: start;
   justify-content: center;
-  height: 400px;
   max-width: 700px;
+  width: 90%;
   /* background-color: #3777FF; */
   background-color: #ffb5c2;
   border-radius: 5px;
+  margin: 0 auto;
+
+  @media screen and (max-width: 768px) {
+  
+      flex-direction: column;
+  }
 }
 
 
@@ -315,7 +319,7 @@ body {
 .carousel-content{
   text-align: center;
   max-width: 350px;
-  margin: 10px;
+  margin: 10px auto;
 
   /* background-color: #011627; */
 }
