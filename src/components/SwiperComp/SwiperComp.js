@@ -59,19 +59,22 @@ export default function SwiperComp() {
         {lists.map((list, i) => (
           <SwiperSlide key={i}>
             <div className="carousel-item">
+            <h2 className="carousel-item-title">{list.title}</h2>
+            <div className="carousel-item-xtitle">
               <img
                 className="carousel-item-image"
                 alt="project-pic"
                 src={list.image}
               />
               <div className="carousel-content">
-                <h2 className="carousel-item-title">{list.title}</h2>
+                
                 <p className="carousel-item-text">{list.description}</p>
                 <div className="carousel-buttons">
                   <button onClick={list.goToPage}>URL</button>
                   <button onClick={list.goToGithub}>Github</button>
                 </div>
               </div>
+            </div>
             </div>
           </SwiperSlide>
         ))}

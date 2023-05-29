@@ -113,8 +113,6 @@ max-width: 1000px;
   max-width: 280px;
   width: 100%;
   margin: 0 auto;
-  margin-left: 20px;
-  margin-right: 20px;
   border-radius: 5px;
   object-fit:fill;
   align-self: center;
@@ -125,20 +123,24 @@ max-width: 1000px;
 .carousel-item-title{
   /* background-color: #011627; */
   padding: 0;
-  margin-top: 50px;
+  margin: 0 auto;
+  margin-top: 20px;
   margin-bottom: 10px;
 }
 .carousel-item {
   display:flex;
+  flex-direction: column;
   overflow: hidden;
-  align-items: start;
+  align-items: center;
   justify-content: center;
-  max-width: 700px;
-  width: 90%;
+  max-width: 650px;
+  width:80%;
   /* background-color: #3777FF; */
   background-color: #ffb5c2;
   border-radius: 5px;
   margin: 0 auto;
+  padding-bottom: 20px;
+
 
   @media screen and (max-width: 768px) {
       flex-direction: column;
@@ -146,13 +148,20 @@ max-width: 1000px;
 }
 
 
+.carousel-item-xtitle{
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  /* background-color:#38aecc */
+}
+
 
 .carousel-item-text {
   font-size: 1.15rem;
-  margin: 10px 0 40px 0;
-  padding: 0 20px 0 20p;
-  white-space: normal;
-  height: 200px;
+  /* margin: 10px 0 40px 0; */
+  /* padding: 0 20px 0 20px; */
+  padding-right: 0;
+ width: 100%;
   text-align:start;
   /* background-color: #8aea92; */
 }
@@ -319,11 +328,10 @@ body {
   background-color: #38aecc;
 }
 .carousel-content{
-  text-align: center;
-  max-width: 350px;
   margin: 10px auto;
-
-  /* background-color: #011627; */
+padding-right: 0;
+width: 280px;
+  /* background-color: #fff; */
 }
 
 .carousel-buttons2 > button {
@@ -342,14 +350,6 @@ body {
 
   max-width: 250px;
 }
-
-/* .carousel{
-  background-color: chartreuse;
-  margin: 0;
-  padding: 0;
-  width: 700px;
-}  */
-
 
 .swiper{
   width: 80%;
