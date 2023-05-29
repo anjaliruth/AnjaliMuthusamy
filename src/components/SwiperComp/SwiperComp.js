@@ -70,8 +70,8 @@ export default function SwiperComp() {
                 
                 <p className="carousel-item-text">{list.description}</p>
                 <div className="carousel-buttons">
-                  <button onClick={list.goToPage}>URL</button>
-                  <button onClick={list.goToGithub}>Github</button>
+                  <button className="carousel-button" onClick={list.goToPage}>URL</button>
+                  <button  className="carousel-button" onClick={list.goToGithub}>Github</button>
                 </div>
               </div>
             </div>

@@ -19,9 +19,9 @@ html{
   /* --textColour: #F6F1D1;
   --headingColour:  #AF5B5B; */
   /* --backgroundColour: #02182b;*/
-  --textColour: #ffb5c2;
-  --textColour: #38aecc;
-  --textColour: #ffffff;
+  --textColour1: #ffb5c2;
+  --textColour2: #38aecc;
+  --textColour3: #ffffff;
   --headingColour: #8aea92;
 }
 
@@ -110,7 +110,7 @@ max-width: 1000px;
 }
 
 .carousel-item-image {
-  max-width: 280px;
+  max-width: 320px;
   width: 100%;
   margin: 0 auto;
   border-radius: 5px;
@@ -121,7 +121,7 @@ max-width: 1000px;
 }
 
 .carousel-item-title{
-  /* background-color: #011627; */
+color: var(--backgroundColour);
   padding: 0;
   margin: 0 auto;
   margin-top: 20px;
@@ -150,26 +150,32 @@ max-width: 1000px;
 
 .carousel-item-xtitle{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   gap: 25px;
   /* background-color:#38aecc */
+
+  @media screen and (min-width: 700px) {
+    flex-direction: row;
+    
+  }
 }
 
 
 .carousel-item-text {
   font-size: 1.15rem;
-  /* margin: 10px 0 40px 0; */
-  /* padding: 0 20px 0 20px; */
+
   padding-right: 0;
  width: 100%;
   text-align:start;
-  /* background-color: #8aea92; */
+color: var(--backgroundColour);
 }
 
 .carousel-buttons {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   flex-direction: row;
+
 }
 
 .button-arrows {
@@ -334,7 +340,15 @@ width: 280px;
   /* background-color: #fff; */
 }
 
-.carousel-buttons2 > button {
+.carousel-button{
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  color:var(--textColour1)
+}
+
+/* .carousel-buttons2 > button {
   border: none;
   background-color: #fff;
   color: #ffb5c2;
@@ -349,7 +363,7 @@ width: 280px;
   justify-content: space-around;
 
   max-width: 250px;
-}
+} */
 
 .swiper{
   width: 80%;
