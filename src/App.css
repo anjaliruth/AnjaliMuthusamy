@@ -29,17 +29,18 @@ html{
   font-size: medium;
   display: flex ;
   flex-direction: column-reverse;
-  max-width: 750px;
+  max-width: 800px;
   width: 100%;
   margin: 0 auto;
   gap: 10px;
   align-items: center;
-  background-color: #ffb5c2;
+  /* background-color: #ffb5c2; */
 
-@media screen and (min-width:700px){
+@media screen and (min-width:768px){
   /* background-color: lime; */
   flex-direction: row;
-  width: 60%;
+  width: 100%;
+  max-width: 700px;
 
 }
 
@@ -58,7 +59,10 @@ html{
   margin: 0 auto;
 width: 100%;
 max-width: 1000px;
-  background-color: #38aecc;
+
+ @media screen and (min-width: 768px) {
+  grid-template-columns: 1fr 1fr 1fr;
+ }
 }
 
 .individualSkills {
@@ -134,7 +138,7 @@ color: var(--backgroundColour);
   align-items: center;
   justify-content: center;
   max-width: 650px;
-  width:80%;
+  width:100%;
   /* background-color: #3777FF; */
   background-color: #ffb5c2;
   border-radius: 5px;
@@ -142,7 +146,7 @@ color: var(--backgroundColour);
   padding-bottom: 20px;
 
 
-  @media screen and (max-width: 768px) {
+  @media screen and (min-width:768px) {
       flex-direction: column;
   }
 }
@@ -155,7 +159,7 @@ color: var(--backgroundColour);
   gap: 25px;
   /* background-color:#38aecc */
 
-  @media screen and (min-width: 700px) {
+  @media screen and (min-width: 768px) {
     flex-direction: row;
     
   }
@@ -164,7 +168,6 @@ color: var(--backgroundColour);
 
 .carousel-item-text {
   font-size: 1.15rem;
-
   padding-right: 0;
  width: 100%;
   text-align:start;
@@ -173,42 +176,14 @@ color: var(--backgroundColour);
 
 .carousel-buttons {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-direction: row;
+  width: 60%;
+  /* background-color: #8aea92; */
 
 }
 
-.button-arrows {
-  background: none;
-  color: var(--textColour);
-  border: none;
-  cursor: pointer;
-  margin-top: 20px;
-}
 
-.indicators {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 20px;
-}
-
-.indicator-buttons {
-  border: none;
-  cursor: pointer;
-}
-
-.indicators > button {
-  margin: 5px;
-  background: none;
-}
-.indicator-symbol {
-  color: gray;
-}
-
-.indicator-symbol-active {
-  color: var(--textColour);
-}
 
 .NavBar {
   position: sticky;
@@ -281,7 +256,7 @@ body {
   /* font-family: 'Source Code Pro', monospace; */
   /* font-family: 'Roboto Slab', serif; */
   /* font-family: 'Indie Flower', cursive; */
-  /* font-family: 'Pangolin', cursive; */
+  font-family: 'Pangolin', cursive;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -291,7 +266,7 @@ body {
   flex-direction: column;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: var(--textColour);
+  color: var(--textColour3);
 }
 
 .name {
@@ -326,44 +301,29 @@ body {
 }
 
 .aboutPara {
+  padding-top: 20px;
   max-width: 500px;
   margin: 0 auto;
 }
 
-.myPhoto{
+/* .myPhoto{
   background-color: #38aecc;
-}
+} */
 .carousel-content{
   margin: 10px auto;
 padding-right: 0;
-width: 280px;
+max-width: 280px;
   /* background-color: #fff; */
 }
 
 .carousel-button{
+  font-family: 'Pangolin', cursive;
   background-color: #fff;
   border: none;
   border-radius: 5px;
   padding: 5px;
   color:var(--textColour1)
 }
-
-/* .carousel-buttons2 > button {
-  border: none;
-  background-color: #fff;
-  color: #ffb5c2;
-  border-radius: 5px;
-  padding: 5px;
-  font-family: 'Pangolin', cursive;
-}
-
-.carousel-buttons2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-
-  max-width: 250px;
-} */
 
 .swiper{
   width: 80%;

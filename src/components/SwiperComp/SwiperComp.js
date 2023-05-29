@@ -13,6 +13,7 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
 export default function SwiperComp() {
+
   const lists = [
     {
       title: "Trivia Game",
@@ -70,8 +71,8 @@ export default function SwiperComp() {
                 
                 <p className="carousel-item-text">{list.description}</p>
                 <div className="carousel-buttons">
-                  <button className="carousel-button" onClick={list.goToPage}>URL</button>
-                  <button  className="carousel-button" onClick={list.goToGithub}>Github</button>
+                  <button className="carousel-button" onClick={()=> window.open(list.pageUrl, "_blank")}>URL</button>
+                  <button  className="carousel-button" onClick={()=> window.open(list.githubUrl, "_blank") }>Github</button>
                 </div>
               </div>
             </div>
