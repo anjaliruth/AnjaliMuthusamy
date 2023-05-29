@@ -42,7 +42,9 @@ export default function SwiperComp() {
     },
   ];
   return (
-    <div>
+    <div className="relativeContainer">
+    <div id="projects" className="headerOffset"></div>
+      <h1 className="sectionHeading"> My Projects</h1>
       <Swiper
         // install Swiper modules
         modules={[Navigation, Pagination, Scrollbar, A11y]}

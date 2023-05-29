@@ -96,11 +96,10 @@ max-width: 1000px;
   display: flex;
   flex-direction: column;
   gap: 10px;
-  overflow: hidden;
 }
 
 .Linkedin-icon,
-.Github-icon {
+.Github-icon, .mail-icon {
   width: 30px;
   height: 30px;
 }
@@ -111,10 +110,14 @@ max-width: 1000px;
 }
 
 .carousel-item-image {
-  max-width: 320px;
-  margin: 20px auto;
+  max-width: 280px;
+  width: 100%;
+  margin: 0 auto;
+  margin-left: 20px;
+  margin-right: 20px;
   border-radius: 5px;
   object-fit:fill;
+  align-self: center;
   
 
 }
@@ -138,7 +141,6 @@ max-width: 1000px;
   margin: 0 auto;
 
   @media screen and (max-width: 768px) {
-  
       flex-direction: column;
   }
 }
@@ -196,7 +198,7 @@ max-width: 1000px;
 .NavBar {
   position: sticky;
   top: 0;
-  z-index: 1;
+  z-index: 2;
   display: flex;
   justify-content: flex-end;
   margin-right: 20px;
@@ -252,7 +254,7 @@ ul li a {
 
 .headerOffset{
   position: relative;
-  top: -70px;
+  top: -100px;
   margin: 10px auto;
 
 }
@@ -347,3 +349,8 @@ body {
   padding: 0;
   width: 700px;
 }  */
+
+
+.swiper{
+  width: 80%;
+}

@@ -17,8 +17,10 @@ function App() {
       <HomePage />
       <About id="about" />
       {/* <Projects /> */}
-      <Skills />
+      <div className="swiper">
     <SwiperComp/>
+    </div>
+      <Skills />
     </div>
   );
 }
