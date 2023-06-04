@@ -19,7 +19,7 @@ export default function About() {
             languages and software. Coding has become another invaluable tool in
             my ever-expanding toolkit of abilities. */}
 
-            Driven by a desire to acquire new skills, I initially ventured into coding and quickly fell in love with its problem-solving nature and the endless opportunities it presents for personal growth. This journey aligns seamlessly with my core values of continuous learning and self-improvement. As I explore the realm of coding, I am now actively seeking a new career in the tech industry, where I can utilize my diverse skill set and embrace the challenges that lie ahead. With over 20 mastered skills spanning from motor skills to languages and software, coding has become an indispensable tool in my ever-expanding arsenal
+            Driven by a desire to acquire new skills, I initially ventured into coding and quickly fell in love with its problem-solving nature and the endless opportunities it presents for personal growth. This journey aligns seamlessly with my core values of continuous learning and self-improvement. As I explore the realm of coding, I am now actively seeking a new career in the tech industry, where I can utilize my diverse skill set and embrace the challenges that lie ahead. With over 20 mastered skills spanning from motor skills to languages and software, coding has become an indispensable tool in my ever-expanding arsenal.
     
         </div>
         <div className="myPhoto">
