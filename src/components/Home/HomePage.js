@@ -2,6 +2,7 @@ import React from "react";
 
 import GithubIcon from "../../Media/icons/github.png";
 import LinkedinIcon from "../../Media/icons/Linkedin.png";
+import EmailIcon from "../../Media/icons/email-icon-50.png"
 export default function HomePage() {
   return (
   
@@ -21,6 +22,10 @@ export default function HomePage() {
           </a>
           <a href="https://github.com/anjaliruth" target="_blank">
             <img className="Github-icon" src={GithubIcon} alt="github-icon" />
+          </a>
+          <a href="mailto:ruthanjali0211@gmail.com">
+            <img className="mail-icon" src={EmailIcon}
+            alt="email-icon" />
           </a>
         </div>
         <div className="writing">
