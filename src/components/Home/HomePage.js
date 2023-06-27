@@ -32,9 +32,7 @@ export default function HomePage() {
           <p className="name">Hi, I'm Anjali</p>
           <p className="sectionsubHeading"> A Junior Developer</p>
           <p className="home">
-            I'm a UCL-trained Chemical Engineering graduate, currently
-            transitioning into tech through a 16-week bootcamp at the School of
-            Code, specializing in full-stack web development. 
+          I'm a UCL-trained Chemical Engineering graduate, currently transitioning into the tech industry through a 16-week bootcamp at the School of Code. Driven by my passion for development, I am an aspiring developer on a continuous journey of growth. With 15 new skills acquired since 2020, I am ready to make a meaningful impact in the tech industry. 
 
             <br/>
             <br/>
