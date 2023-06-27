@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/anjaliruth/ARM-Portfolio.git/static/css/main.ccd33c96.css",
+    "main.js": "/anjaliruth/ARM-Portfolio.git/static/js/main.9ada36b2.js",
+    "static/js/787.28cb0dcd.chunk.js": "/anjaliruth/ARM-Portfolio.git/static/js/787.28cb0dcd.chunk.js",
+    "static/media/IMG_8232.jpg": "/anjaliruth/ARM-Portfolio.git/static/media/IMG_8232.8b476e6fb35147059531.jpg",
+    "static/media/Trivia.png": "/anjaliruth/ARM-Portfolio.git/static/media/Trivia.3645b1e3e2301df3e02d.png",
+    "static/media/TipSplitter2.png": "/anjaliruth/ARM-Portfolio.git/static/media/TipSplitter2.183a6025d52596c1b382.png",
+    "static/media/CurrencyConverter.png": "/anjaliruth/ARM-Portfolio.git/static/media/CurrencyConverter.cb608077f52c1624faa6.png",
+    "index.html": "/anjaliruth/ARM-Portfolio.git/index.html",
+    "main.ccd33c96.css.map": "/anjaliruth/ARM-Portfolio.git/static/css/main.ccd33c96.css.map",
+    "main.9ada36b2.js.map": "/anjaliruth/ARM-Portfolio.git/static/js/main.9ada36b2.js.map",
+    "787.28cb0dcd.chunk.js.map": "/anjaliruth/ARM-Portfolio.git/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ccd33c96.css",
+    "static/js/main.9ada36b2.js"
+  ]
+}
