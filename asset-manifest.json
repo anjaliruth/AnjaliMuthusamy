@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ARM-Portfolio/static/css/main.ccd33c96.css",
-    "main.js": "/ARM-Portfolio/static/js/main.69a13ab8.js",
+    "main.js": "/ARM-Portfolio/static/js/main.00b5c0ed.js",
     "static/js/787.28cb0dcd.chunk.js": "/ARM-Portfolio/static/js/787.28cb0dcd.chunk.js",
     "static/media/IMG_8232.jpg": "/ARM-Portfolio/static/media/IMG_8232.8b476e6fb35147059531.jpg",
     "static/media/Trivia.png": "/ARM-Portfolio/static/media/Trivia.3645b1e3e2301df3e02d.png",
@@ -9,11 +9,11 @@
     "static/media/CurrencyConverter.png": "/ARM-Portfolio/static/media/CurrencyConverter.cb608077f52c1624faa6.png",
     "index.html": "/ARM-Portfolio/index.html",
     "main.ccd33c96.css.map": "/ARM-Portfolio/static/css/main.ccd33c96.css.map",
-    "main.69a13ab8.js.map": "/ARM-Portfolio/static/js/main.69a13ab8.js.map",
+    "main.00b5c0ed.js.map": "/ARM-Portfolio/static/js/main.00b5c0ed.js.map",
     "787.28cb0dcd.chunk.js.map": "/ARM-Portfolio/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ccd33c96.css",
-    "static/js/main.69a13ab8.js"
+    "static/js/main.00b5c0ed.js"
   ]
 }
