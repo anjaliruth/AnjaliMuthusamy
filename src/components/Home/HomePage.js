@@ -12,7 +12,7 @@ export default function HomePage() {
         <div className="icons">
           <a
             href="https://www.linkedin.com/in/anjali-ruth-muthusamy"
-            target="_blank"
+            target="_blank" rel="noreferrer"
           >
             <img
               className="Linkedin-icon"
@@ -20,7 +20,7 @@ export default function HomePage() {
               alt="linkedin-icon"
             />
           </a>
-          <a href="https://github.com/anjaliruth" target="_blank">
+          <a href="https://github.com/anjaliruth" target="_blank" rel="noreferrer">
             <img className="Github-icon" src={GithubIcon} alt="github-icon" />
           </a>
           <a href="mailto:ruthanjali0211@gmail.com">
