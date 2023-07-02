@@ -1,4 +1,4 @@
-import Carousel from "../Carousel/carousel";
+
 import SwiperComp from "../SwiperComp/SwiperComp";
 
 function Projects() {

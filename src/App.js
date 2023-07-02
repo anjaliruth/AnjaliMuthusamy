@@ -3,7 +3,6 @@
 import "./App.css";
 import NavBar from "./components/Nav Bar/NavBar";
 import About from "./components/About";
-import Projects from "./components/Projects/Projects";
 import Skills from "./components/Skills/Skills";
 import HomePage from "./components/Home/HomePage.js";
 import SwiperComp from "./components/SwiperComp/SwiperComp.js";
