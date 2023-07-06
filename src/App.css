@@ -71,9 +71,14 @@ max-width: 1000px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.7);
   border-radius: 5px;
   font-size: 1rem;
-  padding: 10px;
+  padding: 15px;
 }
 
+.skill{
+  @media screen and (min-width: 768px) {
+    font-size: 2rem;
+  }
+}
 .individualSkills > img {
   height: 40px;
   align-self: center;
