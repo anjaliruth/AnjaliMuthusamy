@@ -31,7 +31,7 @@ function Skills() {
       {lists.map((list,i) => (
         <div key={i} className="individualSkills">
         
-          <img src={list.image} alt={list.skill}/>
+          <img src={list.image} alt={list.skill} className="skillsIcon"/>
           <h2 className="skill">{list.skill}</h2>
         </div>
       ))}

@@ -40,7 +40,7 @@ html{
   /* background-color: lime; */
   flex-direction: row;
   width: 100%;
-  max-width: 700px;
+  max-width: 800px;
 
 }
 
@@ -81,8 +81,8 @@ justify-content: space-around;
     font-size: 2rem;
   }
 }
-.individualSkills > img {
-  height: 40px;
+.skillsIcon{
+  height: 50px;
   align-self: center;
 }
 
