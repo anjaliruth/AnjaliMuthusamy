@@ -17,7 +17,8 @@ export default function SwiperComp() {
   const lists = [
     {
       title:"Paws For Affection",
-      description: "For the final project of the <a href='https://www.schoolofcode.co.uk/'>School of Code</a> bootcamp, our team, The Hackitects set out to solve the following problem: Since the end of COVID-19, pet abandonment in the UK has surged as people return to work. Shelters are overwhelmed with animals and resulting administration. Our solution provides a marketplace connecting potential adopters to dogs, freeing up the shelters to use their time on animal care ",
+      description: "For our final project at the School of Code bootcamp,  our team aimed to address the surge in pet abandonment in the UK post-COVID-19 as people return to work. We developed a marketplace connecting potential adopters with dogs, allowing shelters to prioritize animal care.",
+
       githubUrl:"https://github.com/anjaliruth/TheHackitectsFinalProjects/blob/main/README.md", 
       pageUrl:"https://pawsforaffection.netlify.app/",
       image:image1
@@ -39,15 +40,15 @@ export default function SwiperComp() {
         "https://github.com/anjaliruth/TipSplitter/blob/main/README.md",
       pageUrl: "https://anjaliruth.github.io/TipSplitter/",
     },
-    {
-      title: "Currency Converter",
-      description:
-        "Input your base currency and amount, and instantly obtain the converted value in your desired target currency. It's quick, accurate, and convenient for all your currency conversion needs.",
-      image: image4,
-      githubUrl:
-        "https://github.com/anjaliruth/CorrencyConverter/blob/master/README.md",
-      pageUrl: "https://anjaliruth.github.io/CorrencyConverter/",
-    },
+    // {
+    //   title: "Currency Converter",
+    //   description:
+    //     "Input your base currency and amount, and instantly obtain the converted value in your desired target currency. It's quick, accurate, and convenient for all your currency conversion needs.",
+    //   image: image4,
+    //   githubUrl:
+    //     "https://github.com/anjaliruth/CorrencyConverter/blob/master/README.md",
+    //   pageUrl: "https://anjaliruth.github.io/CorrencyConverter/",
+    // },
   ];
   return (
     <div className="relativeContainer">
