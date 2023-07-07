@@ -11,7 +11,6 @@ specific widths for icons ok not for divs*/
 
 html{
   scroll-behavior: smooth;
-  width:100%;
 }
 
 :root {
@@ -26,18 +25,15 @@ html{
 }
 
 .about-total{
-  font-size: medium;
   display: flex ;
   flex-direction: column-reverse;
-  max-width: 800px;
   width: 100%;
   margin: 0 auto;
   gap: 10px;
   align-items: center;
-  /* background-color: #ffb5c2; */
+  background-color: #8aea91;
 
 @media screen and (min-width:768px){
-  /* background-color: lime; */
   flex-direction: row;
   width: 100%;
   max-width: 800px;
@@ -45,24 +41,27 @@ html{
 }
 
 }
-
-
-.aboutPara{
-  max-width: 600px;
-  width: 100%;
-}
 .skillsGrid {
+
   display: grid;
   grid-template-columns: 1fr;
   column-gap: 60px;
   row-gap: 20px;
   margin: 0 auto;
-width: 100%;
-max-width: 1000px;
+  width: 100%;
+  max-width: 1000px;
+}
 
- @media screen and (min-width: 768px) {
-  grid-template-columns: 1fr 1fr 1fr;
- }
+@media screen and (min-width: 650px) {
+  .skillsGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .skillsGrid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 
 .individualSkills {
@@ -123,7 +122,7 @@ justify-content: space-around;
 
 .carousel-item-image {
   max-width: 320px;
-  width: 100%;
+  width: 90%;
   margin: 0 auto;
   border-radius: 5px;
   object-fit:fill;
@@ -188,7 +187,7 @@ color: var(--backgroundColour);
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
-  width: 60%;
+  width: 100%;
   /* background-color: #8aea92; */
 
 }
@@ -272,10 +271,7 @@ ul li a {
   margin: 10px auto;
 
 }
-#about{
-  padding-top: 15px;
-  width: 100%;
-}
+
 body {
   /* font-family: 'Source Code Pro', monospace; */
   /* font-family: 'Roboto Slab', serif; */
@@ -310,8 +306,8 @@ body {
 }
 
 .myImage {
-  width: 250px;
-  height: 250px;
+  width: 350px;
+  height: 350px;
   border-radius: 50%;
   object-fit: cover;
 }
@@ -326,6 +322,7 @@ body {
   width: 100%;
   margin: 0 auto;
   gap: 20px;
+
 }
 
 .home{
@@ -341,11 +338,17 @@ body {
 
 .aboutPara {
   padding-top: 20px;
-  max-width: 600px;
   width: 80%;
   margin: 0 auto;
-  font-size: 1.2rem;
-}
+  font-size: 1.5rem;
+  text-align: center;
+  @media screen and (min-width: 768px) {
+    font-size: 2rem;
+    width: 100%;
+    background-color: #8aea91;
+  }
+    
+  }
 
 /* .myPhoto{
   background-color: #38aecc;
@@ -354,7 +357,7 @@ body {
   margin: 10px auto;
 padding-right: 0;
 max-width: 280px;
-  /* background-color: #fff; */
+width: 90%;
 }
 
 .carousel-button{

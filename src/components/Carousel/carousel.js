@@ -56,34 +56,6 @@ export default function Carousel() {
           />
         ))}
       </div>
-      <div className="carousel-buttons">
-        <button
-          onClick={() => {
-            updateIndex(activeIndex - 1);
-          }}
-          className="button-arrows"
-        >
-          {" "}
-          <span className="material-symbols-outlined">arrow_back_ios</span>
-        </button>
-        <div className="indicators">
-          {lists.map((list, i) => {
-            return (
-              <button
-                onClick={() => {
-                  updateIndex(i);
-                }}
-                className="indicator-buttons"
-              >
-                <span className={`material-symbols-outlined ${i===activeIndex ? "indicator-symbol-active":"indicator-symbol"}`}>
-                 
-                  radio_button_checked
-                </span>
-              </button>
-            );
-          })}
-        </div>
-      </div>
     </div>
   );
 }

@@ -20,7 +20,7 @@ export const Carouselitem = ({
       <div className="carousel-content">
         <h2 className="carousel-item-title">{title}</h2>
         <p className="carousel-item-text">{description}</p>
-        <div className="carousel-buttons2">
+        <div className="carousel-buttons">
           <button onClick={goToPage}>URL</button>
           <button onClick={goToGithub}>Github</button>
         </div>
