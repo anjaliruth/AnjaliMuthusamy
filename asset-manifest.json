@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ARM-Portfolio/static/css/main.ccd33c96.css",
-    "main.js": "/ARM-Portfolio/static/js/main.572685c2.js",
+    "main.css": "/ARM-Portfolio/static/css/main.2767ff3c.css",
+    "main.js": "/ARM-Portfolio/static/js/main.4ae9b297.js",
     "static/js/787.28cb0dcd.chunk.js": "/ARM-Portfolio/static/js/787.28cb0dcd.chunk.js",
     "static/media/IMG_8232.jpg": "/ARM-Portfolio/static/media/IMG_8232.8b476e6fb35147059531.jpg",
     "static/media/PFA.png": "/ARM-Portfolio/static/media/PFA.b702ed24a3daf2ac3237.png",
@@ -9,12 +9,12 @@
     "static/media/TipSplitter2.png": "/ARM-Portfolio/static/media/TipSplitter2.183a6025d52596c1b382.png",
     "static/media/CurrencyConverter.png": "/ARM-Portfolio/static/media/CurrencyConverter.cb608077f52c1624faa6.png",
     "index.html": "/ARM-Portfolio/index.html",
-    "main.ccd33c96.css.map": "/ARM-Portfolio/static/css/main.ccd33c96.css.map",
-    "main.572685c2.js.map": "/ARM-Portfolio/static/js/main.572685c2.js.map",
+    "main.2767ff3c.css.map": "/ARM-Portfolio/static/css/main.2767ff3c.css.map",
+    "main.4ae9b297.js.map": "/ARM-Portfolio/static/js/main.4ae9b297.js.map",
     "787.28cb0dcd.chunk.js.map": "/ARM-Portfolio/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ccd33c96.css",
-    "static/js/main.572685c2.js"
+    "static/css/main.2767ff3c.css",
+    "static/js/main.4ae9b297.js"
   ]
 }
