@@ -85,6 +85,7 @@ export default function SwiperComp() {
               </div>
             </div>
             </div>
+            
           </SwiperSlide>
         ))}
       </Swiper>
