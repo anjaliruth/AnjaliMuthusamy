@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import image1 from "../../Media/PFA.png"
 import image2 from "../../Media/Trivia.png";
 import image3 from "../../Media/TipSplitter2.png";
-import image4 from "../../Media/CurrencyConverter.png";
+// import image4 from "../../Media/CurrencyConverter.png";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
