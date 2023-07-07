@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "tangerine-basbousa-736522.netlify.app",
+  "homepage": "https://anjaliruth.github.io/ARM-Portfolio",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -14,8 +14,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-
     "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -40,7 +40,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^5.0.0",
-    "@babel/plugin-proposal-private-property-in-object": "^7.0.0"
+    "@babel/core": "^7.22.8",
+    "gh-pages": "^5.0.0"
   }
 }
