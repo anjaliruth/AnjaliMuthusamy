@@ -8,10 +8,10 @@ export const Carouselitem = ({
   pageUrl,
 }) => {
   function goToGithub() {
-    window.open(githubUrl, "_blank");
+    window.open(githubUrl, "_blank", "noopener,noreferrer");
   }
   function goToPage() {
-    window.open(pageUrl, "_blank");
+    window.open(pageUrl, "_blank", "noopener,noreferrer");
   }
 
   return (
