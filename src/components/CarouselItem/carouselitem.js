@@ -16,7 +16,7 @@ export const Carouselitem = ({
 
   return (
     <div className="carousel-item">
-      <img className="carousel-item-image" src={image} alt="project image" />
+      <img className="carousel-item-image" src={image} alt="project" />
       <div className="carousel-content">
         <h2 className="carousel-item-title">{title}</h2>
         <p className="carousel-item-text">{description}</p>

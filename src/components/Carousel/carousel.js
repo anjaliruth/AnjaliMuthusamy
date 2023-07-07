@@ -43,7 +43,7 @@ export default function Carousel() {
     <div className="carousel">
       <div
         className="inner"
-        style={{ transform: `translateX(-${activeIndex * 100}%)` }}
+        // style={{ transform: `translateX(-${activeIndex * 100}%)` }}
       >
         {lists.map((list, i) => (
           <Carouselitem
@@ -83,15 +83,6 @@ export default function Carousel() {
             );
           })}
         </div>
-        <button
-          onClick={() => {
-            updateIndex(activeIndex + 1);
-          }}
-          className="button-arrows"
-        >
-          {" "}
-          <span className="material-symbols-outlined">arrow_forward_ios</span>
-        </button>
       </div>
     </div>
   );

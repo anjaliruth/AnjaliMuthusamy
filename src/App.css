@@ -103,8 +103,7 @@ justify-content: space-around;
 }
 
 
-/* .inner{
-} */
+
 .icons {
   display: flex;
   flex-direction: column;
@@ -141,6 +140,7 @@ color: var(--backgroundColour);
   margin-bottom: 10px;
 }
 .carousel-item {
+  box-sizing: border-box;
   display:flex;
   flex-direction: column;
   overflow: hidden;
@@ -148,11 +148,12 @@ color: var(--backgroundColour);
   justify-content: center;
   max-width: 650px;
   width:100%;
-  /* background-color: #3777FF; */
   background-color: #ffb5c2;
   border-radius: 5px;
   margin: 0 auto;
   padding-bottom: 20px;
+  gap: 15px;
+  
 
 
   @media screen and (min-width:768px) {
@@ -191,7 +192,6 @@ color: var(--backgroundColour);
   /* background-color: #8aea92; */
 
 }
-
 
 
 .NavBar {
