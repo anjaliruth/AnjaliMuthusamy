@@ -29,13 +29,14 @@ html{
   flex-direction: column-reverse;
   width: 80%;
   margin: 0 auto;
-  gap: 20px;
+  gap: 5px;
   align-items: center;
 
 
 @media screen and (min-width:768px){
   flex-direction: row;
   width: 80%;
+  gap: 20px;
 
 }
 
@@ -305,11 +306,17 @@ body {
 }
 
 .myImage {
-  width: 350px;
-  height: 350px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
   object-fit: cover;
-}
+  @media screen and (min-width: 768px) {
+    max-width: 500px;
+    max-height: 500px;
+  }
+    
+  }
+
 
 
 .totalHomeSection {
@@ -337,9 +344,9 @@ body {
 
 .aboutPara {
   padding-top: 20px;
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   text-align: center;
   @media screen and (min-width: 768px) {
     font-size: 2rem;
