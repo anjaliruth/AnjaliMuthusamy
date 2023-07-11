@@ -14,6 +14,7 @@ function App() {
     <div className="App">
       <NavBar />
       <HomePage />
+      
       <About id="about" />
       {/* <Projects /> */}
       <div className="swiper">
