@@ -3,13 +3,13 @@
   flex-direction: column;
   gap: 100px;
   width: 100vw;
-/* width=100% */
-/* media query for desktop to lower width and centralised margin auto
+  /* width=100% */
+  /* media query for desktop to lower width and centralised margin auto
 beware of navbar so its not pulled into centralised settings.
 specific widths for icons ok not for divs*/
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -24,25 +24,21 @@ html{
   --headingColour: #8aea91;
 }
 
-.about-total{
-  display: flex ;
+.about-total {
+  display: flex;
   flex-direction: column-reverse;
   width: 80%;
   margin: 0 auto;
   gap: 5px;
   align-items: center;
 
-
-@media screen and (min-width:768px){
-  flex-direction: row;
-  width: 80%;
-  gap: 20px;
-
-}
-
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+    width: 80%;
+    gap: 20px;
+  }
 }
 .skillsGrid {
-
   display: grid;
   grid-template-columns: 1fr;
   column-gap: 60px;
@@ -67,26 +63,25 @@ html{
 .individualSkills {
   width: 100%;
   display: flex;
-justify-content: space-around;
+  justify-content: space-around;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.7);
   border-radius: 5px;
   font-size: 1rem;
   padding: 15px;
 }
 
-.skill{
+.skill {
   text-align: center;
   @media screen and (min-width: 768px) {
     font-size: 2rem;
   }
 }
-.skillsIcon{
+.skillsIcon {
   height: 50px;
   align-self: center;
 }
 
-
-.writing{
+.writing {
   text-align: center;
 }
 .carousel {
@@ -101,8 +96,6 @@ justify-content: space-around;
   } */
 }
 
-
-
 .icons {
   display: flex;
   flex-direction: column;
@@ -110,7 +103,8 @@ justify-content: space-around;
 }
 
 .Linkedin-icon,
-.Github-icon, .mail-icon {
+.Github-icon,
+.mail-icon {
   width: 30px;
   height: 30px;
 }
@@ -125,14 +119,12 @@ justify-content: space-around;
   width: 90%;
   margin: 0 auto;
   border-radius: 5px;
-  object-fit:fill;
+  object-fit: fill;
   align-self: center;
-  
-
 }
 
-.carousel-item-title{
-color: var(--backgroundColour);
+.carousel-item-title {
+  color: var(--backgroundColour);
   padding: 0;
   margin: 0 auto;
   margin-top: 20px;
@@ -140,28 +132,25 @@ color: var(--backgroundColour);
 }
 .carousel-item {
   box-sizing: border-box;
-  display:flex;
+  display: flex;
   flex-direction: column;
   overflow: hidden;
   align-items: center;
   justify-content: center;
   max-width: 650px;
-  width:100%;
+  width: 100%;
   background-color: #ffb5c2;
   border-radius: 5px;
   margin: 0 auto;
   padding-bottom: 20px;
   gap: 15px;
-  
 
-
-  @media screen and (min-width:768px) {
-      flex-direction: column;
+  @media screen and (min-width: 768px) {
+    flex-direction: column;
   }
 }
 
-
-.carousel-item-xtitle{
+.carousel-item-xtitle {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -170,17 +159,15 @@ color: var(--backgroundColour);
 
   @media screen and (min-width: 768px) {
     flex-direction: row;
-    
   }
 }
-
 
 .carousel-item-text {
   font-size: 1.15rem;
   padding-right: 0;
- width: 100%;
-  text-align:start;
-color: var(--backgroundColour);
+  width: 100%;
+  text-align: start;
+  color: var(--backgroundColour);
 }
 
 .carousel-buttons {
@@ -189,9 +176,7 @@ color: var(--backgroundColour);
   flex-direction: row;
   width: 100%;
   /* background-color: #8aea92; */
-
 }
-
 
 .NavBar {
   position: sticky;
@@ -201,24 +186,16 @@ color: var(--backgroundColour);
   justify-content: center;
   margin-right: 20px;
   background-color: #011627;
-  @media screen and (min-width: 768px) {
-    justify-content: flex-end;
-  }
-    
-  }
+}
+
 .sectionHeading {
   display: flex;
   justify-content: center;
   font-size: 2rem;
   font-weight: 800;
   color: var(--headingColour);
-  @media screen and (min-width: 768px) {
-    font-size: 4rem;
-  }
-    
-  
-    
-  }
+
+}
 .sectionsubHeading {
   font-size: 1.5rem;
   font-weight: 800;
@@ -227,9 +204,7 @@ color: var(--backgroundColour);
   @media screen and (min-width: 768px) {
     font-size: 3rem;
   }
-    
-  }
-
+}
 
 .sectionList {
   list-style-type: none;
@@ -242,7 +217,6 @@ color: var(--backgroundColour);
 nav {
   margin: 0;
   padding: 0;
-
 }
 
 ul li a {
@@ -258,25 +232,23 @@ ul li a {
  
 } */
 
-
-.relativeContainer{
+.relativeContainer {
   position: relative;
   margin: 10px auto;
   height: 100vh;
 }
 
-.headerOffset{
+.headerOffset {
   position: relative;
   top: -100px;
   margin: 10px auto;
-
 }
 
 body {
   /* font-family: 'Source Code Pro', monospace; */
   /* font-family: 'Roboto Slab', serif; */
   /* font-family: 'Indie Flower', cursive; */
-  font-family: 'Pangolin', cursive;
+  font-family: "Pangolin", cursive;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -290,7 +262,7 @@ body {
 }
 
 .name {
-  margin:0;
+  margin: 0;
   font-size: 2rem;
   font-weight: 800;
   color: var(--headingColour);
@@ -314,10 +286,7 @@ body {
     max-width: 500px;
     max-height: 500px;
   }
-    
-  }
-
-
+}
 
 .totalHomeSection {
   display: flex;
@@ -328,10 +297,9 @@ body {
   width: 100%;
   margin: 0 auto;
   gap: 20px;
-
 }
 
-.home{
+.home {
   width: 90%;
   text-align: center;
   font-size: 1.3rem;
@@ -339,8 +307,7 @@ body {
     font-size: 2rem;
     width: 100%;
   }
-    
-  }
+}
 
 .aboutPara {
   padding-top: 20px;
@@ -352,28 +319,38 @@ body {
     font-size: 2rem;
     width: 100%;
   }
-    
-  }
+}
 
 /* .myPhoto{
   background-color: #38aecc;
 } */
-.carousel-content{
+.carousel-content {
   margin: 10px auto;
-padding-right: 0;
-max-width: 280px;
-width: 90%;
+  padding-right: 0;
+  max-width: 280px;
+  width: 90%;
 }
 
-.carousel-button{
-  font-family: 'Pangolin', cursive;
+.carousel-button {
+  font-family: "Pangolin", cursive;
   background-color: #fff;
   border: none;
   border-radius: 5px;
   padding: 5px;
-  color:var(--textColour1)
+  color: var(--textColour1);
 }
 
-.swiper{
+.swiper {
   width: 80%;
+}
+
+
+@media screen and (min-width: 768px) {
+  .NavBar {
+    justify-content: flex-end;
+  }
+  .sectionHeading {
+    font-size: 4rem;
+  }
+
 }
