@@ -336,6 +336,7 @@ body {
   .carousel-item{
     flex-direction: column;
   }
+  
   .carousel-item-xtitle {
     flex-direction: row;
   }
