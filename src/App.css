@@ -31,12 +31,6 @@ html {
   margin: 0 auto;
   gap: 5px;
   align-items: center;
-
-  @media screen and (min-width: 768px) {
-    flex-direction: row;
-    width: 80%;
-    gap: 20px;
-  }
 }
 .skillsGrid {
   display: grid;
@@ -72,9 +66,7 @@ html {
 
 .skill {
   text-align: center;
-  @media screen and (min-width: 768px) {
-    font-size: 2rem;
-  }
+
 }
 .skillsIcon {
   height: 50px;
@@ -145,9 +137,6 @@ html {
   padding-bottom: 20px;
   gap: 15px;
 
-  @media screen and (min-width: 768px) {
-    flex-direction: column;
-  }
 }
 
 .carousel-item-xtitle {
@@ -157,9 +146,9 @@ html {
   gap: 25px;
   /* background-color:#38aecc */
 
-  @media screen and (min-width: 768px) {
+  /* @media screen and (min-width: 768px) {
     flex-direction: row;
-  }
+  } */
 }
 
 .carousel-item-text {
@@ -201,9 +190,6 @@ html {
   font-weight: 800;
   margin: 1rem;
   color: var(--headingColour);
-  @media screen and (min-width: 768px) {
-    font-size: 3rem;
-  }
 }
 
 .sectionList {
@@ -266,9 +252,6 @@ body {
   font-size: 2rem;
   font-weight: 800;
   color: var(--headingColour);
-  @media screen and (min-width: 768px) {
-    font-size: 5rem;
-  }
 }
 
 .jobTitle {
@@ -282,10 +265,6 @@ body {
   height: 250px;
   border-radius: 50%;
   object-fit: cover;
-  @media screen and (min-width: 768px) {
-    max-width: 500px;
-    max-height: 500px;
-  }
 }
 
 .totalHomeSection {
@@ -303,10 +282,6 @@ body {
   width: 90%;
   text-align: center;
   font-size: 1.3rem;
-  @media screen and (min-width: 768px) {
-    font-size: 2rem;
-    width: 100%;
-  }
 }
 
 .aboutPara {
@@ -315,10 +290,6 @@ body {
   margin: 0 auto;
   font-size: 1.3rem;
   text-align: center;
-  @media screen and (min-width: 768px) {
-    font-size: 2rem;
-    width: 100%;
-  }
 }
 
 /* .myPhoto{
@@ -353,4 +324,37 @@ body {
     font-size: 4rem;
   }
 
+  .about-total{
+    flex-direction: row;
+    width: 80%;
+    gap: 20px;
+  }
+
+  .skill{
+    font-size: 2rem;
+  }
+  .carousel-item{
+    flex-direction: column;
+  }
+  .carousel-item-xtitle {
+    flex-direction: row;
+  }
+  .myImage{
+    max-width: 500px;
+    max-height: 500px;
+  }
+  .sectionsubHeading{
+    font-size: 3rem;
+  }
+  .name{
+    font-size: 5rem;
+  }
+  .home{
+    font-size: 2rem;
+    width: 100%;
+  }
+  .aboutPara{
+    font-size: 2rem;
+    width: 100%;
+  }
 }
