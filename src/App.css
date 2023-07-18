@@ -66,7 +66,6 @@ html {
 
 .skill {
   text-align: center;
-
 }
 .skillsIcon {
   height: 50px;
@@ -136,7 +135,12 @@ html {
   margin: 0 auto;
   padding-bottom: 20px;
   gap: 15px;
+}
 
+@media screen and (max-width: 390px) {
+  .carousel-item-x-title {
+    height: 85vh;
+  }
 }
 
 .carousel-item-xtitle {
@@ -170,8 +174,10 @@ html {
 .NavBar {
   position: sticky;
   top: 0;
+  padding: 25px;
   z-index: 2;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   margin-right: 20px;
   background-color: #011627;
@@ -183,7 +189,6 @@ html {
   font-size: 2rem;
   font-weight: 800;
   color: var(--headingColour);
-
 }
 .sectionsubHeading {
   font-size: 1.5rem;
@@ -205,12 +210,13 @@ nav {
   padding: 0;
 }
 
-ul li a {
+ul li a, .nameTab {
   text-decoration: none;
   color: var(--headingColour);
   font-size: 1.5rem;
   font-weight: 600;
 }
+
 
 /* #projects,
 #skills,
@@ -315,46 +321,46 @@ body {
   width: 80%;
 }
 
-
 @media screen and (min-width: 768px) {
   .NavBar {
-    justify-content: flex-end;
+    padding: 0;
+    justify-content: space-between;
   }
   .sectionHeading {
     font-size: 4rem;
   }
 
-  .about-total{
+  .about-total {
     flex-direction: row;
     width: 80%;
     gap: 20px;
   }
 
-  .skill{
+  .skill {
     font-size: 2rem;
   }
-  .carousel-item{
+  .carousel-item {
     flex-direction: column;
   }
-  
+
   .carousel-item-xtitle {
     flex-direction: row;
   }
-  .myImage{
+  .myImage {
     max-width: 500px;
     max-height: 500px;
   }
-  .sectionsubHeading{
+  .sectionsubHeading {
     font-size: 3rem;
   }
-  .name{
+  .name {
     font-size: 5rem;
   }
-  .home{
+  .home {
     font-size: 2rem;
     width: 100%;
   }
-  .aboutPara{
+  .aboutPara {
     font-size: 2rem;
     width: 100%;
   }
