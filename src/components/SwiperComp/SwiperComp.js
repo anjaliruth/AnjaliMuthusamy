@@ -5,6 +5,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import image1 from "../../Media/PFA.png"
 import image2 from "../../Media/Trivia.png";
 import image3 from "../../Media/TipSplitter2.png";
+import image4 from "../../Media/BetteerMakeItCount.png"
+import image5 from "../../Media/Inventory.png"
 // import image4 from "../../Media/CurrencyConverter.png";
 // Import Swiper styles
 import "swiper/css";
@@ -37,18 +39,28 @@ export default function SwiperComp() {
         "Need to figure out exactly how much to tip?  \nTry out this tip splitter.  \nDining as a group and want to split the bill? We got that covered too.",
       image: image3,
       githubUrl:
-        "https://github.com/anjaliruth/TipSplitter/blob/main/README.md",
+        "https://github.com/anjaliruth/TipSplitter",
       pageUrl: "https://anjaliruth.github.io/TipSplitter/",
     },
-    // {
-    //   title: "Currency Converter",
-    //   description:
-    //     "Input your base currency and amount, and instantly obtain the converted value in your desired target currency. It's quick, accurate, and convenient for all your currency conversion needs.",
-    //   image: image4,
-    //   githubUrl:
-    //     "https://github.com/anjaliruth/CorrencyConverter/blob/master/README.md",
-    //   pageUrl: "https://anjaliruth.github.io/CorrencyConverter/",
-    // },
+    {
+      title: "Better Make it Count!",
+      description:
+        "Calculate the exact amount of time in a day spent on doing productive work. The app also displays historic data for up to 1 week from the current date.",
+      image: image4,
+      githubUrl:
+        "https://github.com/anjaliruth/BetterMakeItCount",
+      pageUrl: "https://anjaliruth.github.io/BetterMakeItCount/",
+    }, 
+    {
+      title: "Keep Tabs",
+      description:
+        "A full stack app that helps you keep track of the whereabouts of your belongings.",
+      image: image5,
+      githubUrl:
+        "https://github.com/anjaliruth/keepTabs",
+      pageUrl: "https://keeptabs.netlify.app/",
+    }, 
+  
   ];
   return (
     <div className="relativeContainer">
